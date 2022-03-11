@@ -1,5 +1,15 @@
-### 이 프로젝트는 티처블머신으로 간단히 모델을 만들고 그 모델을 임베디드보드 micro:bit V2에서 사용하는 방법을 다룹니다.
-### 예제 코드는 마스크 감지로 마이크로비트를 제어하는 예제입니다. 
+🏆이 프로젝트는 티처블머신으로 간단히 모델을 만들고 그 모델을 임베디드보드 micro:bit V2에서 사용하는 방법을 다룹니다.🏆
+
+- 마스크 감지
+
+
+![Animation1](https://user-images.githubusercontent.com/79979086/157808573-fa8b7cd6-bcbb-4baf-9017-5d059115552c.gif)
+
+- 음성 인식 (멈춰!)
+
+
+![Animation2](https://user-images.githubusercontent.com/79979086/157809237-c87bfad5-12ca-4fd1-ab9b-ef7abd52b2f9.gif)
+
 
 
 #
@@ -53,9 +63,11 @@ https://github.com/p5-serial/p5.serialcontrol/releases/tag/0.1.2
 ![image](https://user-images.githubusercontent.com/79979086/157785531-a61f0722-a8b4-413f-8a49-498b667c2d18.png)
 
 
-- "micropython-mask-recognition.py" 해당 파일은 bytes type으로 들어온 모델의 output 'Mask'와 'NoMask'을 이용한 코드입니다.
+- "micropython-mask-recognition.py" 해당 파일은 bytes type으로 들어온 모델의 output 'Mask'와 'NoMask'을 이용한 코드입니다. 
+- 이외에도 led on, led off 등 다양한 제어를 할 수 있습니다.
 - 해당 파일의 코드를 아래의 마이크로 파이썬 웹페이지에 복사-붙여넣기 후 마이크로비트에 업로드 합니다.
 - micro python webpage : https://python.microbit.org/v/2?l=ko
+
 
 #
 # Step 4 - In p5.js editor, connect to the uploaded model and modify the code if you want.
@@ -65,6 +77,21 @@ https://github.com/p5-serial/p5.serialcontrol/releases/tag/0.1.2
 - p5.serialport.js와 index.html, schetch.js를 p5.js editor에 업로드합니다.
 - 예제 p5.js editor : https://editor.p5js.org/Judgement9882/sketches/fbHYZf95Y
 
+![image](https://user-images.githubusercontent.com/79979086/157806852-1086ae8e-dd4c-4869-8cda-6b2e09244ad5.png)
+
+- sckech.js에서 modelURL과 serialPort를 자신의 환경에 맞게 수정.
+
+![image](https://user-images.githubusercontent.com/79979086/157806974-04d5faed-35ad-4c92-9dbd-f48894476d86.png)
+
+- gotResult 함수에서 원하는대로 데이터를 보내서 사용합니다.
+
+
+
+# 음성 학습 예제
+https://youtu.be/-yLTG8KOEW0
+
+
+https://youtu.be/eHshbmhtN-k
 
 
 
