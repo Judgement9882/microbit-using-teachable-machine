@@ -31,7 +31,7 @@
 
 ![image](https://user-images.githubusercontent.com/79979086/157226956-5a6c65d1-7ed6-43c2-a70e-b76adc70772d.png)
 
-- 위 링크를 꼭 기억해주세요.
+- 이때 생성된 링크를 꼭 기억해주세요.
 
 #
 # Step 2 - Open the serial port by using p5.serialcontrol.exe.
