@@ -49,15 +49,22 @@ https://github.com/p5-serial/p5.serialcontrol/releases/tag/0.1.2
 - 또한 한번 데이터를 전송할 때 버퍼를 다 채워야만 데이터를 전송합니다.
 - 마이크로비트가 받는 데이터는 하나의 output 뿐만 아니라 여러 output이 같이 들어갑니다.
 - 그래서 데이터를 slicing 하여 마이크로비트를 제어했습니다.
-- "micropython-mask-recognition.py" 해당 파일은 bytes type으로 들어온 모델의 output "Mask"와 "NoMask"을 이용한 코드입니다.
+
+![image](https://user-images.githubusercontent.com/79979086/157785531-a61f0722-a8b4-413f-8a49-498b667c2d18.png)
+
+
+- "micropython-mask-recognition.py" 해당 파일은 bytes type으로 들어온 모델의 output 'Mask'와 'NoMask'을 이용한 코드입니다.
 - 해당 파일의 코드를 아래의 마이크로 파이썬 웹페이지에 복사-붙여넣기 후 마이크로비트에 업로드 합니다.
-micro python webpage : https://python.microbit.org/v/2?l=ko
+- micro python webpage : https://python.microbit.org/v/2?l=ko
 
 #
 # Step 4 - In p5.js editor, connect to the uploaded model and modify the code if you want.
 
 - p5.js editor 상에서 모델을 입력받고 output을 micro:bit V2로 보내줄겁니다.
 - 모델을 사용하려면 ml5.js를 include 해야하고 UART 통신을 하려면 p5.serialport.js를 index.html에서 include 해야합니다.
+- p5.serialport.js와 index.html, schetch.js를 p5.js editor에 업로드합니다.
+- 예제 p5.js editor : https://editor.p5js.org/Judgement9882/sketches/fbHYZf95Y
+
 
 
 
