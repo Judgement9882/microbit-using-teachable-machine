@@ -11,6 +11,11 @@
 ![Animation2](https://user-images.githubusercontent.com/79979086/157809237-c87bfad5-12ca-4fd1-ab9b-ef7abd52b2f9.gif)
 
 
+#
+- 구성도
+
+![image](https://user-images.githubusercontent.com/79979086/162358186-a5af82b9-37f7-4f6f-9f30-2cfaafb4f4ce.png)
+
 
 #
 🔥 
