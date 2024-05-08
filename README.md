@@ -61,7 +61,7 @@ https://github.com/p5-serial/p5.serialcontrol/releases/tag/0.1.2
 - 이때 UART 방식으로 데이터를 전송하는데, 해당 데이터 타입은 bytes 타입입니다.
 - micro python UART library : https://microbit-micropython.readthedocs.io/en/latest/uart.html#module-microbit.uart
 
-- 또한 한번 데이터를 전송할 때 버퍼를 다 채워야만 데이터를 전송합니다.
+- 또한 한번 데이터를 전송할 때 버퍼를 다 채워야만 데이터를 전송합니다. (The internal UART RX buffer is 64 bytes, so make sure data is read before the buffer is full or some of the data might be lost.)
 - 마이크로비트가 받는 데이터는 하나의 output 뿐만 아니라 여러 output이 같이 들어갑니다.
 - 그래서 데이터를 slicing 하여 마이크로비트를 제어했습니다.
 
